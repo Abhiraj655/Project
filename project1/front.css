@@ -1,0 +1,234 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+nav{
+    height: 60px;
+    width: 1050px;
+    line-height: 30px;
+    position: absolute;
+    padding: 0px 100px;
+    background-color: white;
+    margin: 60px;
+    margin-top: 20px; 
+    
+}
+nav .nav1{
+    cursor: pointer;  
+    float: left;
+    padding-top: 10px;
+   
+}
+nav ul{
+    float: right; 
+}
+nav ul li button{
+    margin-top: 3px;
+    padding: 2px 4px;
+    border: none;
+    background-color: #230df1;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav li{
+    display: inline;
+    list-style: none; 
+}
+nav li a{
+    font-size: 13px;
+    font-size: large;
+    text-decoration: none;
+    color: purple;
+    padding-right: 30px;
+    padding-left: 50px;  
+}
+nav li a:hover{
+    background-color: black;
+}
+.div2 h1{
+    text-align: center;
+    margin-top: 10%;
+    /* border: 2px solid red; */
+    color: white;  
+}
+.div2 h3{
+    text-align: center;
+}
+.div2 p{
+    text-align: center;
+}
+.div2 h2{
+    text-align: center;
+}
+.div3{
+    width: 100%;
+    min-height: 100;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(192, 55, 55, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    /* backdrop-filter: blur(4px) saturate(180%); */
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 16px 12px;
+    font-size: 18px;
+    color: #cac7ff;
+}
+::placeholder{
+    color: #cac7ff;
+}
+.search-bar button img{
+    width: 23px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #dee0ec;
+    cursor: pointer;
+}
+.checkbtn{
+    font-size: 22px;
+    color: blue;
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.container{
+    width: 100%;
+}
+.container .row{
+    width: 80%;
+    margin: auto;
+}
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+}
+.container .row .header h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: #e19c30;
+}
+.container .row .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+
+}
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.content .card p{
+    font-size: 15px;
+    color: hsla(0, 18%, 3%, 0.909); 
+    line-height: 1.5;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+/* @media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    nav ul li {
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+} */
+
+
+
